@@ -220,7 +220,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_AnchoredPosition: {x: 0, y: -6.5}
   m_SizeDelta: {x: -20, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &31785739
@@ -248,13 +248,13 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ingrese contrase\xF1a..-"
+  m_Text: "Ingrese contrase\xF1a.."
 --- !u!222 &31785740
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.2003, y: -42.7}
+  m_AnchoredPosition: {x: 0.000021935, y: -42.7}
   m_SizeDelta: {x: 174.4006, y: 52.629593}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &202918244
@@ -410,7 +410,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 202918245}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1868719527}
+        m_MethodName: MostrarMensaje
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &202918245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -628,7 +639,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 15, y: 171}
+  m_AnchoredPosition: {x: -0.00001049, y: 130}
   m_SizeDelta: {x: 240.23224, y: 81.43094}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1021534056
@@ -854,6 +865,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e14446e57cc9f84c872e3d232c1d0bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  "Contrase\xF1a": 1234
+  "InputContrase\xF1a": {fileID: 1709739691}
 --- !u!4 &1868719528
 Transform:
   m_ObjectHideFlags: 0
@@ -881,7 +894,7 @@ GameObject:
   - component: {fileID: 1902973454}
   - component: {fileID: 1902973453}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: "InputContrase\xF1a"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -905,8 +918,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7.2003, y: 53}
-  m_SizeDelta: {x: 174.40063, y: 30}
+  m_AnchoredPosition: {x: 0.000022888, y: 50}
+  m_SizeDelta: {x: 260.94205, y: 48.544586}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1902973453
 MonoBehaviour:
